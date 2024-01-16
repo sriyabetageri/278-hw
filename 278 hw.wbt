@@ -1,0 +1,57 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.26483614880896256 -0.16063687754989422 0.9508194401962223 4.187857272768304
+  position 1.9903098985628882 4.462077977076815 2.4537573729683024
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.07 0 0
+  rotation 1 0 0 4.692820414042842e-06
+  floorSize 7 7
+  floorTileSize 1.4 1.4
+  wallThickness 0.04
+  wallHeight 0.4
+}
+E-puck {
+  hidden position_0_0 733.5784367906797
+  hidden position_0_1 805.8395685839539
+  hidden linearVelocity_0 0.05440251706744613 0.014563379679634378 3.666686246633253e-08
+  hidden angularVelocity_0 -0.00229652651133546 0.00863779596422573 0.09183530836529007
+  hidden rotation_1 0 1 0 4.7289411578476575
+  hidden linearVelocity_1 0.052139168197138486 0.013957161787310065 5.609615838508724e-08
+  hidden angularVelocity_1 -0.6949746488908907 2.595988586152551 0.09359473875074617
+  hidden rotation_2 0 1 0 1.5918492649668365
+  hidden linearVelocity_2 0.05675261976538971 0.015192065511741541 8.018067196857736e-08
+  hidden angularVelocity_2 -0.7624549600959583 2.8484814384353725 0.09386995904457063
+  translation 0.1313943379435687 0.032874743402902994 -6.416636256146441e-05
+  rotation -0.0005866513463418352 0.0009538460629714986 -0.9999993730087463 -0.2632761429228534
+}
+Transform {
+  translation 0 -0.38 0.15
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.5 0.4 0.6
+      }
+    }
+  ]
+}
+Transform {
+  translation 0 1.31 0.1
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.4 0.6
+      }
+    }
+  ]
+}
